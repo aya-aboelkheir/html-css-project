@@ -66,12 +66,12 @@ button:hover{
     color: var(--secondary-color);
 }
 .hero-section{
-    width: 100vw;
     height: 100vh;
     margin-top: 70px;
     background-image: url(abstract-wallpaper-with-robotic-edge-3d-design-elements-ai-generated-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 .hero-section .overlay{
@@ -344,6 +344,9 @@ a:hover{
 .login form{
     width: 50%;
 }
+h1{
+    margin-top: 110px;
+}
 }
 @media (min-width:301px) and (max-width:600px) {
     .nav-bar{
@@ -391,6 +394,9 @@ a:hover{
 
 .login form{
     width: 70%;
+}
+h1{
+    margin-top: 150px;
 }
 }
 
